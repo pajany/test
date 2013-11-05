@@ -1,0 +1,5 @@
+AuthUserFile /var/www/vhosts/softwaredevelopersinc.com/httpdocs/nda/.htpasswd
+AuthType Basic
+AuthName "Sdi Nda Authentication"
+Require valid-user
+AddDefaultCharset UTF-8
